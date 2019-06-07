@@ -1,5 +1,11 @@
 $(document).ready(function() {
     // Initialization Screen
+    var imageArray = new Array(); 
+    imageArray[0] = "<img class='center-block' src='./assets/images/clarinet-yes.jpg'>";
+    imageArray[1] = "<img class='center-block' src='./assets/images/benny.jpeg'>"; 
+    imageArray[2] = "<img class='center-block' src='./assets/images/reeds.jpg'>"; 
+    imageArray[3] = "<img class='center-block' src='./assets/images/squidward.jpeg'>";  
+    imageArray[4] = "<img class='center-block' src='./assets/images/squidward_clarinet2.jpg'>"; 
     
     function startPage() {
         openScreen = "<p class='text-center main-button-container'><a class='btn btn-warning btn-md btn-block start-button' href='#' role='button'>Start!</a></p>";
@@ -118,12 +124,7 @@ $(document).ready(function() {
         ["1690", "1578", "1992", "1630"], 
     ];
 
-    var imageArray = new Array(); 
-    imageArray[0] = "<img class='center-block' src='../images/clarinet-yes.jpg'>";
-    imageArray[1] = "<img class='center-block' src='../images/benny.jpeg'>"; 
-    imageArray[2] = "<img class='center-block' src='../images/reeds.jpg'>"; 
-    imageArray[3] = "<img class='center-block' src='../images/squidward.jpeg'>";  
-    imageArray[4] = "<img class='center-block' src='../images/squidward_clarinet2.jpg'>"; 
+
 
     var correctAnswers = 
     ["D. C# Clarinet", 
